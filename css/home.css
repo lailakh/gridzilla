@@ -81,4 +81,10 @@ body {
   font-weight: bold;
 }
 
+footer {
+  height: 90px;
+  padding-top: 10px;
+  border-top: 1px solid #ececec;
+}
+
 /*# sourceMappingURL=home.css.map */
