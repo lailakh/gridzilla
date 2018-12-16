@@ -2,3 +2,79 @@ body {
 color:$main_color;
 
 }
+
+
+.alubm{
+
+
+
+	h2{
+		font-weight: bold;
+		font-color:$main_color;
+		text-align: center;
+		padding: 60px;
+		font-size: ($h2_size)+$px !important;
+
+
+		@media (max-width: $sm){
+			font-size: ($h2_size/2)+$px !important;
+
+		}
+
+		@media (min-width: $md){
+			font-size: ($h2_size/1.5)+$px !important;
+		}
+
+
+		@media (min-width: $lg){
+			font-size: ($h2_size/1.2)+$px !important;
+
+		}
+
+		
+	}
+
+/****************/
+	.breadcrumb {
+		background: #fff;
+
+	  .breadcrumb-item {
+	  	color:$main_color;
+	  }
+
+	  .breadcrumb-item:hover , .breadcrumb-item.active {
+	  	color:$hover_color;
+	  }		
+	}
+
+/*********************/
+.card {
+
+	@media (min-width: $sm){
+	height: 550px;
+    }
+	margin-bottom: 25px;
+
+	.img {
+		position: relative;
+	}
+	.overlay {
+		@include overlay;
+		background: rgba(0,0,0,.2);
+		opacity: 0;
+	}
+
+	.img:hover .overlay {
+     opacity: 1;
+    }
+
+    .read_more {
+    	color:$main_color;
+    	font-weight: bold;
+    }
+}
+
+
+
+}
+
