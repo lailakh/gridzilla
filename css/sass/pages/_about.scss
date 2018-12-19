@@ -1,0 +1,49 @@
+.news {
+	
+	h2{
+		font-weight: bold;
+		font-color:$main_color;
+		text-align: center;
+		padding: 60px;
+		font-size: ($h2_size)+$px !important;
+
+
+		@media (max-width: $sm){
+			font-size: ($h2_size/2)+$px !important;
+
+		}
+
+		@media (min-width: $md){
+			font-size: ($h2_size/1.5)+$px !important;
+		}
+
+
+		@media (min-width: $lg){
+			font-size: ($h2_size/1.2)+$px !important;
+
+		}
+}
+
+
+
+
+
+
+.button_group{
+	padding-bottom: 20px;
+
+	button {
+		margin-left: 20px;
+	}
+
+
+}
+
+.art-img {
+
+	width: 100%;
+
+
+}
+
+}

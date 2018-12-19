@@ -1,6 +1,38 @@
-body {
-color:$main_color;
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+   
+    background-size: 100% 100%;
+}
+.carousel-control-prev {
+    left: 0px;
+    top: 50%;
+     width: 5%; 
+     height: 40px;
+     background: #00000099 !important;
+        opacity: .9;
+}
+.carousel-control-next{
+  right: 0px;
+  top: 50%;
+width: 5%;
+height: 40px;
+background: #00000099 !important;
+      opacity: .9;
+}
 
+
+.carousel-caption {
+    position: absolute;
+    right: 34%;
+    bottom: 153px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    color: #fff;
+    text-align: center;
 }
 
 

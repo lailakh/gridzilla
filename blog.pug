@@ -1,0 +1,222 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Gridzilla
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(href='css/font-awesome.css', rel='stylesheet')
+    link(rel='stylesheet', href='css/animate.css')
+    link(rel='stylesheet', href='css/blog.css')
+    link(rel='shortcut icon', type='image/x-icon', href='img/logo.ico')
+  body
+    // ========header===========
+    header.header
+      .container
+        .row
+          .col-sm-6
+            a(href='#')
+              h1.logo Gridzilla
+          .col-sm-6
+            .input-group.pt-3
+              input#example-search-input.form-control.border-right-0.border(type='search', value='search')
+              span.input-group-append
+                .input-group-text.bg-transparent
+                  i.fa.fa-search
+        nav.navbar.navbar-expand-lg
+          button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+            span.fa.fa-bars
+          #navbarNavDropdown.navbar-collapse.collapse
+            ul.navbar-nav
+              li.nav-item
+                strong
+                  a.nav-link(href='index.html') HOME
+              li.nav-item
+                strong
+                  a.active.nav-link(href='about.html') ABOUT
+              li.nav-item
+                strong
+                  a.nav-link(href='blog.html') BLOG
+              li.nav-item
+                strong
+                    a.nav-link(href='contact.html') CONTACT
+    // ======end header==========
+    // ===============container ===============
+    section.container.alubm
+      h2 A Theme Unlike Any Other. Simply Fantastic!
+      nav(aria-label='breadcrumb')
+        ol.breadcrumb
+          li#all.breadcrumb-item.active(aria-current='page', onclick='determine(this)') ALL
+          li#news.breadcrumb-item(aria-current='page', onclick='determine(this)') NEWS
+          li#design.breadcrumb-item(aria-current='page', onclick='determine(this)') DESIGN
+          li#paint.breadcrumb-item(aria-current='page', onclick='determine(this)') PAINT
+          li#art.breadcrumb-item(aria-current='page', onclick='determine(this)') ART
+          li#development.breadcrumb-item(aria-current='page', onclick='determine(this)') DEVELOPMENT
+      .row
+        .col-sm-6.col-md-4.col-lg-3.news.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img1.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.news.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img2.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.news.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img3.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.design.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img4.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.design.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img5.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.design.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img6.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.paint.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img7.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.paint.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img8.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.paint.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img9.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.paint.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img10.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.art.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img11.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+        .col-sm-6.col-md-4.col-lg-3.art.data1.all
+          .card
+            .img
+              img.card-img-top(src='img/img12.jpg', alt='Card image cap')
+              .overlay
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.read_more(href='#')
+                i.fa.fa-angle-double-right
+                | read more
+    // ==============container ======================
+    footer
+      .container
+        .row
+          .col-lg-6.col-md-12
+            p
+              i.fa.fa-twitter.btn.btn-info
+              i.fa.fa-twitter.btn.btn-warning
+              i.fa.fa-facebook.btn.btn-warning
+              i.fa.fa-facebook.btn.btn-danger
+          .col-lg-6.col-md-12
+            p
+              strong Best PSD Freebies  |  info@bestpsdfreebies.com
+            p Copyright 2012 Gridzilla Theme  www.bestpsdfreebies.com
+    script(src='js/jquery.js')
+    script(src='js/wow.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/popper.min.js')
+    script(src='js/custom.js')
+    script.
+      $(function(){
+      new WOW().init();
+      });

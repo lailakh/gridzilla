@@ -1,0 +1,49 @@
+
+
+
+
+
+/****************/
+	.breadcrumb {
+		background: #fff;
+
+	  .breadcrumb-item {
+	  	color:$main_color;
+	  }
+
+	  .breadcrumb-item:hover , .breadcrumb-item.active {
+	  	color:$hover_color;
+	  }		
+	}
+
+/*********************/
+.card {
+
+	@media (min-width: $sm){
+	height: 550px;
+    }
+	margin-bottom: 25px;
+
+	.img {
+		position: relative;
+	}
+	.overlay {
+		@include overlay;
+		background: rgba(0,0,0,.2);
+		opacity: 0;
+	}
+
+	.img:hover .overlay {
+     opacity: 1;
+    }
+
+    .read_more {
+    	color:$main_color;
+    	font-weight: bold;
+    }
+}
+
+
+
+
+
